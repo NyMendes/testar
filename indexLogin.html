@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="body">
+      <img
+        class="logo"
+        src="https://images.vexels.com/media/users/3/224234/isolated/preview/ff7c525c1c3e1bef640644542001e1fd-logotipo-da-escola-online.png"
+        alt=""
+        height="120px"
+        width="120px"
+      />
+      <form
+        action="index.html"
+        method="post"
+        class="formLogin"
+        autocomplete="on"
+      >
+        <fieldset>
+          <legend>Sign in to Etec</legend>
+          <div class="primeiro">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/8509/8509176.png"
+              alt=""
+              width="40px"
+              height="40px"
+            />
+            <input
+              type="email"
+              name="login"
+              id="ilogin"
+              placeholder="Enter your email"
+              naxlenth="30"
+              autofocusa
+            />
+          </div>
+          <div class="segundo">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/8276/8276484.png"
+              alt=""
+              width="40px"
+              height="40px"
+            />
+            <input
+              type="password"
+              name="senha"
+              id="isenha"
+              placeholder="Enter your password"
+              required
+              minlenth="6"
+              naxlenth="20"
+            />
+          </div>
+          <input type="submit" class="btnLog" value="Log in" />
+          <div class="footer">
+            <div class="link">
+              <a class="#" rel="noopener">Use single sign-on</a>
+            </div>
+            <div style="height: 16px"></div>
+            <div class="link">
+              <a tabindex="-1" class="#">Reset password</a>
+            </div>
+            <div style="height: 16px"></div>
+            <div class="link">
+              <div class="footerText">
+                No account?
+                <a tabindex="-1" class="#">Create one</a>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

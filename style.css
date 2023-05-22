@@ -1,0 +1,130 @@
+:root {
+  --cor0: #f2b807;
+  --cor1: #24a645;
+  --cor2: #d92555;
+  --cor3: #410759;
+  --cor4: #9144a6;
+}
+* {
+  /** top(cima) - right(>) - botton(baixo) - left(<)**/
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Whyte, sans-serif !important;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.body {
+  content: '';
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.logo {
+  display: block;
+  position: absolute;
+  margin: 2%;
+}
+.formLogin {
+  height: 50% 0;
+  margin: auto;
+  position: relative;
+  display: flex;
+  vertical-align: baseline;
+  flex-direction: column;
+}
+.formLogin fieldset {
+  min-width: 450px; /*Largura*/
+  height: 350px; /*Altura*/
+  border: #050505 solid 3px;
+  padding: 5px 25px;
+}
+legend {
+  padding: 0 10px;
+  margin-left: 10px;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: Whyte, sans-serif;
+}
+#ilogin,
+#isenha {
+  border: #050505 solid 3px;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 18px;
+  width: 100%;
+}
+#ilogin:focus,
+#isenha:focus {
+  border: #007be5 solid 3px;
+}
+.btnLog {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  background: #000;
+  color: #f0f8ff;
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: 100%;
+  appearance: none;
+  cursor: pointer;
+  align-items: flex-start;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: matrix(1, 0, 0, 1, 0, -1.11736);
+}
+.btnLog:hover {
+  transform: translateY(4px);
+}
+.btnLog:active {
+  background: #007be5;
+}
+.primeiro {
+  display: flex;
+  margin: 15px 0;
+}
+.segundo {
+  display: flex;
+  margin: 15px 0;
+}
+img {
+  margin-right: 5px;
+}
+.footer {
+  display: block;
+  width: 400px;
+  margin: 15px 0;
+  text-align: center;
+  user-select: auto;
+  position: absolute;
+}
+.link {
+  justify-content: center;
+  align-items: center;
+  vertical-align: baseline;
+}
+.texto {
+  color: #00000099;
+  text-decoration: none;
+}
+a {
+  color: rgb(85, 81, 255);
+  font-family: Whyte, sans-serif !important;
+  font-size: 16px;
+}
+a:hover {
+  text-decoration: underline;
+}
